@@ -6,7 +6,7 @@ const path = require('path')
 const handlebars = require('express-handlebars');
 const sessionRouter = require('./routes/sessions.router');
 const app = express();
-const PORT = 8080;
+const PORT = 8080
 
 app.listen(PORT, () => {
     console.log(`Servidor is running on port ${PORT}`);
